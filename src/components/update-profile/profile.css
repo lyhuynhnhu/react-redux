@@ -1,0 +1,82 @@
+article {
+    height: 480px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 85%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-profile {
+    width: 30%;
+    height: 90%;
+    background-color: #f0e8e8;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+}
+h2 {
+    margin: 5% 0 5% 5%;
+}
+.name-control {
+    width: 70%;
+    height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    text-align: left;
+}
+.gender-control {
+    font-size: 15px;
+    margin-left: 5%;
+}
+.gender {
+    margin-left: 5%;
+}
+.gender-icon {
+    width: 70px;
+    height: 70px;
+    outline: none;
+    box-shadow: none;
+    border: #ffffff;
+    border-radius: 50%;
+    background-color: white;
+}
+.upload-picture {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.upload-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 45%;
+    text-align: left;
+}
+.update-profile,
+.update-profile:hover,
+.update-profile:focus {
+    width: 70px;
+    height: 70px;
+    margin-left: 70%;
+    outline: none;
+    box-shadow: none;
+    border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(177, 175, 175);
+}
